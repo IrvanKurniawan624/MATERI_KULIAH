@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1726028247 source:c:\users\kevin\downloads\tugas_praktikum_9\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
