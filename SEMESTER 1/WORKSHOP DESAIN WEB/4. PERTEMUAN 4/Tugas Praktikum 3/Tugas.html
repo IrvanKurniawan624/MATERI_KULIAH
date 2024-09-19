@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    nav{
+      position: fixed;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px 20px;
+      border-bottom: 2px solid lightgray;
+      background-color: white;
+    }
+    #logo_pens{
+      display: inline-block;
+    }
+    nav .navbar{
+      display: inline-block;
+      float: right;
+    }
+    nav .navbar li{
+      list-style: none;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .container{
+      padding-top: 70px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .box{
+      float: left;
+      width: 250px;
+      padding: 20px 10px;
+      color: black;
+    }
+
+    .box .image-box{
+      border-radius: 10px;
+    }
+
+    .box h3.title{
+      font-family: math, sans-serif;
+    }
+
+    .icon-box{
+      width: 100%;
+      height: 25px;
+    }
+
+    .icon-box > *{
+      float: left;
+      white-space: nowrap;
+      margin-right: 10px;
+    }
+
+    .icon-box span.icon{
+      display: inline-block;
+      height: 25px;
+      width: 25px;
+    }
+
+    .icon-box span.text-icon{
+      font-size: .9rem;
+      padding-top: 4px;
+      font-family: monospace, sans-serif;
+    }
+
+    .icon-box span.icon-comment{
+      border-left: 1px solid lightgray;
+      padding-left: 10px;
+    }
+
+    .box .box-text{
+      font-family: system-ui, sans-serif;
+      font-size: .9rem;
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <img src="img/Logo_PENS.png"  id="logo_pens" width="60px">
+    <ul class="navbar">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Features</a>
+      </li>
+      <li>
+        <a href="#">Pages</a>
+      </li>
+      <li>
+        <a href="#">Portofolio</a>
+      </li>
+      <li>
+        <a href="#">Blog</a>
+      </li>
+      <li>
+        <a href="#">Shop</a>
+      </li>
+      <li>
+        <a href="#">Shortcodes</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="box">
+      <img src="img/image-1.png" class="image-box" alt="gambar-1" width="250px">
+      <h3 class="title">Bloomberg Smart Cities change maker economics security.</h3>
+      <div class="icon-box">
+        <span class="icon icon-calendar">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="calendar">
+            <g fill="#134563">
+              <path d="M49.6 54H14.4C12 54 10 52 10 49.6V17.3c0-2.4 1.6-4.4 3.7-4.4h2.2v2.9h-2.2c-.3 0-.7.6-.7 1.5v32.3c0 .8.7 1.5 1.5 1.5h35.2c.8 0 1.5-.7 1.5-1.5V17.3c0-.9-.5-1.5-.7-1.5h-2.2v-2.9h2.2c2 0 3.7 2 3.7 4.4v32.3C54 52 52 54 49.6 54"></path>
+              <path d="M20.3 18.8c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c-.1.8-.7 1.5-1.5 1.5m23.4 0c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c0 .8-.7 1.5-1.5 1.5M24.7 12.9h14.6v3H24.7zM12.9 21.7h38.2v3H12.9zM45.2 27.6h2.9v2.9h-2.9zM39.3 27.6h3v2.9h-3zM33.5 27.6h2.9v2.9h-2.9zM27.6 27.6h2.9v2.9h-2.9zM21.7 27.6h3v2.9h-3zM45.2 33.5h2.9v2.9h-2.9zM39.3 33.5h3v2.9h-3zM33.5 33.5h2.9v2.9h-2.9zM27.6 33.5h2.9v2.9h-2.9zM21.7 33.5h3v2.9h-3zM15.9 33.5h2.9v2.9h-2.9zM45.2 39.3h2.9v3h-2.9zM39.3 39.3h3v3h-3zM33.5 39.3h2.9v3h-2.9zM27.6 39.3h2.9v3h-2.9zM21.7 39.3h3v3h-3zM15.9 39.3h2.9v3h-2.9zM39.3 45.2h3v2.9h-3zM33.5 45.2h2.9v2.9h-2.9zM27.6 45.2h2.9v2.9h-2.9zM21.7 45.2h3v2.9h-3zM15.9 45.2h2.9v2.9h-2.9z"></path>
+            </g>
+          </svg>
+        </span>
+        <span class="text-icon">13th Jun 2021</span>
+        <span class="icon icon-comment">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="comment">
+            <path fill="#231F20" d="M25.784 21.017A10.992 10.992 0 0 0 27 16c0-6.065-4.935-11-11-11S5 9.935 5 16s4.935 11 11 11c1.742 0 3.468-.419 5.018-1.215l4.74 1.185a.996.996 0 0 0 .949-.263 1 1 0 0 0 .263-.95l-1.186-4.74zm-2.033.11.874 3.498-3.498-.875a1.006 1.006 0 0 0-.731.098A8.99 8.99 0 0 1 16 25c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9a8.997 8.997 0 0 1-1.151 4.395.995.995 0 0 0-.098.732z"></path>
+          </svg>
+        </span>
+        <span class="text-icon">53</span>
+      </div>
+      <p class="box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, inventore vero commodi incidunt repudiandae quos sunt veniam hic distinctio odio, expedita nam.</p>
+    </div>
+    <div class="box">
+      <img src="img/image-2.png" class="image-box" alt="gambar-2" width="250px">
+      <h3 class="title">Medicine new approaches communities, outcomes partnership</h3>
+      <div class="icon-box">
+        <span class="icon icon-calendar">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="calendar">
+            <g fill="#134563">
+              <path d="M49.6 54H14.4C12 54 10 52 10 49.6V17.3c0-2.4 1.6-4.4 3.7-4.4h2.2v2.9h-2.2c-.3 0-.7.6-.7 1.5v32.3c0 .8.7 1.5 1.5 1.5h35.2c.8 0 1.5-.7 1.5-1.5V17.3c0-.9-.5-1.5-.7-1.5h-2.2v-2.9h2.2c2 0 3.7 2 3.7 4.4v32.3C54 52 52 54 49.6 54"></path>
+              <path d="M20.3 18.8c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c-.1.8-.7 1.5-1.5 1.5m23.4 0c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c0 .8-.7 1.5-1.5 1.5M24.7 12.9h14.6v3H24.7zM12.9 21.7h38.2v3H12.9zM45.2 27.6h2.9v2.9h-2.9zM39.3 27.6h3v2.9h-3zM33.5 27.6h2.9v2.9h-2.9zM27.6 27.6h2.9v2.9h-2.9zM21.7 27.6h3v2.9h-3zM45.2 33.5h2.9v2.9h-2.9zM39.3 33.5h3v2.9h-3zM33.5 33.5h2.9v2.9h-2.9zM27.6 33.5h2.9v2.9h-2.9zM21.7 33.5h3v2.9h-3zM15.9 33.5h2.9v2.9h-2.9zM45.2 39.3h2.9v3h-2.9zM39.3 39.3h3v3h-3zM33.5 39.3h2.9v3h-2.9zM27.6 39.3h2.9v3h-2.9zM21.7 39.3h3v3h-3zM15.9 39.3h2.9v3h-2.9zM39.3 45.2h3v2.9h-3zM33.5 45.2h2.9v2.9h-2.9zM27.6 45.2h2.9v2.9h-2.9zM21.7 45.2h3v2.9h-3zM15.9 45.2h2.9v2.9h-2.9z"></path>
+            </g>
+          </svg>
+        </span>
+        <span class="text-icon">24th Feb 2021</span>
+        <span class="icon icon-comment">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="comment">
+            <path fill="#231F20" d="M25.784 21.017A10.992 10.992 0 0 0 27 16c0-6.065-4.935-11-11-11S5 9.935 5 16s4.935 11 11 11c1.742 0 3.468-.419 5.018-1.215l4.74 1.185a.996.996 0 0 0 .949-.263 1 1 0 0 0 .263-.95l-1.186-4.74zm-2.033.11.874 3.498-3.498-.875a1.006 1.006 0 0 0-.731.098A8.99 8.99 0 0 1 16 25c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9a8.997 8.997 0 0 1-1.151 4.395.995.995 0 0 0-.098.732z"></path>
+          </svg>
+        </span>
+        <span class="text-icon">17</span>
+      </div>
+      <p class="box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, inventore vero commodi incidunt repudiandae quos sunt veniam hic distinctio odio, expedita nam.</p>
+    </div>
+    <div class="box">
+      <img src="img/image-3.png" class="image-box" alt="gambar-3" width="250px">
+      <h3 class="title">Significant alturism planned giving insurmountable challanges liberal.</h3>
+      <div class="icon-box">
+        <span class="icon icon-calendar">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="calendar">
+            <g fill="#134563">
+              <path d="M49.6 54H14.4C12 54 10 52 10 49.6V17.3c0-2.4 1.6-4.4 3.7-4.4h2.2v2.9h-2.2c-.3 0-.7.6-.7 1.5v32.3c0 .8.7 1.5 1.5 1.5h35.2c.8 0 1.5-.7 1.5-1.5V17.3c0-.9-.5-1.5-.7-1.5h-2.2v-2.9h2.2c2 0 3.7 2 3.7 4.4v32.3C54 52 52 54 49.6 54"></path>
+              <path d="M20.3 18.8c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c-.1.8-.7 1.5-1.5 1.5m23.4 0c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c0 .8-.7 1.5-1.5 1.5M24.7 12.9h14.6v3H24.7zM12.9 21.7h38.2v3H12.9zM45.2 27.6h2.9v2.9h-2.9zM39.3 27.6h3v2.9h-3zM33.5 27.6h2.9v2.9h-2.9zM27.6 27.6h2.9v2.9h-2.9zM21.7 27.6h3v2.9h-3zM45.2 33.5h2.9v2.9h-2.9zM39.3 33.5h3v2.9h-3zM33.5 33.5h2.9v2.9h-2.9zM27.6 33.5h2.9v2.9h-2.9zM21.7 33.5h3v2.9h-3zM15.9 33.5h2.9v2.9h-2.9zM45.2 39.3h2.9v3h-2.9zM39.3 39.3h3v3h-3zM33.5 39.3h2.9v3h-2.9zM27.6 39.3h2.9v3h-2.9zM21.7 39.3h3v3h-3zM15.9 39.3h2.9v3h-2.9zM39.3 45.2h3v2.9h-3zM33.5 45.2h2.9v2.9h-2.9zM27.6 45.2h2.9v2.9h-2.9zM21.7 45.2h3v2.9h-3zM15.9 45.2h2.9v2.9h-2.9z"></path>
+            </g>
+          </svg>
+        </span>
+        <span class="text-icon">30th Dec 2021</span>
+        <span class="icon icon-comment">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="comment">
+            <path fill="#231F20" d="M25.784 21.017A10.992 10.992 0 0 0 27 16c0-6.065-4.935-11-11-11S5 9.935 5 16s4.935 11 11 11c1.742 0 3.468-.419 5.018-1.215l4.74 1.185a.996.996 0 0 0 .949-.263 1 1 0 0 0 .263-.95l-1.186-4.74zm-2.033.11.874 3.498-3.498-.875a1.006 1.006 0 0 0-.731.098A8.99 8.99 0 0 1 16 25c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9a8.997 8.997 0 0 1-1.151 4.395.995.995 0 0 0-.098.732z"></path>
+          </svg>
+        </span>
+        <span class="text-icon">13</span>
+      </div>
+      <p class="box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, inventore vero commodi incidunt repudiandae quos sunt veniam hic distinctio odio, expedita nam.</p>
+    </div>
+    <div class="box">
+      <img src="img/image-4.png" class="image-box" alt="gambar-4" width="250px">
+      <h3 class="title">Compassion conflict resolution, progressive tackle.</h3>
+      <div class="icon-box">
+        <span class="icon icon-calendar">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="calendar">
+            <g fill="#134563">
+              <path d="M49.6 54H14.4C12 54 10 52 10 49.6V17.3c0-2.4 1.6-4.4 3.7-4.4h2.2v2.9h-2.2c-.3 0-.7.6-.7 1.5v32.3c0 .8.7 1.5 1.5 1.5h35.2c.8 0 1.5-.7 1.5-1.5V17.3c0-.9-.5-1.5-.7-1.5h-2.2v-2.9h2.2c2 0 3.7 2 3.7 4.4v32.3C54 52 52 54 49.6 54"></path>
+              <path d="M20.3 18.8c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c-.1.8-.7 1.5-1.5 1.5m23.4 0c-.8 0-1.5-.7-1.5-1.5v-5.9c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5v5.9c0 .8-.7 1.5-1.5 1.5M24.7 12.9h14.6v3H24.7zM12.9 21.7h38.2v3H12.9zM45.2 27.6h2.9v2.9h-2.9zM39.3 27.6h3v2.9h-3zM33.5 27.6h2.9v2.9h-2.9zM27.6 27.6h2.9v2.9h-2.9zM21.7 27.6h3v2.9h-3zM45.2 33.5h2.9v2.9h-2.9zM39.3 33.5h3v2.9h-3zM33.5 33.5h2.9v2.9h-2.9zM27.6 33.5h2.9v2.9h-2.9zM21.7 33.5h3v2.9h-3zM15.9 33.5h2.9v2.9h-2.9zM45.2 39.3h2.9v3h-2.9zM39.3 39.3h3v3h-3zM33.5 39.3h2.9v3h-2.9zM27.6 39.3h2.9v3h-2.9zM21.7 39.3h3v3h-3zM15.9 39.3h2.9v3h-2.9zM39.3 45.2h3v2.9h-3zM33.5 45.2h2.9v2.9h-2.9zM27.6 45.2h2.9v2.9h-2.9zM21.7 45.2h3v2.9h-3zM15.9 45.2h2.9v2.9h-2.9z"></path>
+            </g>
+          </svg>
+        </span>
+        <span class="text-icon">15th Jun 2021</span>
+        <span class="icon icon-comment">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="comment">
+            <path fill="#231F20" d="M25.784 21.017A10.992 10.992 0 0 0 27 16c0-6.065-4.935-11-11-11S5 9.935 5 16s4.935 11 11 11c1.742 0 3.468-.419 5.018-1.215l4.74 1.185a.996.996 0 0 0 .949-.263 1 1 0 0 0 .263-.95l-1.186-4.74zm-2.033.11.874 3.498-3.498-.875a1.006 1.006 0 0 0-.731.098A8.99 8.99 0 0 1 16 25c-4.963 0-9-4.038-9-9s4.037-9 9-9 9 4.038 9 9a8.997 8.997 0 0 1-1.151 4.395.995.995 0 0 0-.098.732z"></path>
+          </svg>
+        </span>
+        <span class="text-icon">54</span>
+      </div>
+      <p class="box-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, inventore vero commodi incidunt repudiandae quos sunt veniam hic distinctio odio, expedita nam.</p>
+    </div>
+  </div>
+</body>
+
+</html>

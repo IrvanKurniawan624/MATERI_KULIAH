@@ -76,27 +76,85 @@ int main()
 /// =======END=======
 
 /// ====== TUGAS 6 ======
-    char nilai_matkul_[6];
-    int jml_jam_matkul_[6], i, temp_int_1, temp_int_2, result;
+//    char nilai_matkul_[6];
+//    int jml_jam_matkul_[6], i, temp_int_1, temp_int_2, jumlah_jam = 0, result = 0;
+//
+//    for (i = 1; i <= 5; i++) {
+//
+//        printf("\nNilai Mata Kuliah %d : ", i);
+//        scanf(" %c", &nilai_matkul_[i]);
+//
+//        printf("Jumlah Jam : ");
+//        scanf("%d", &jml_jam_matkul_[i]);
+//
+//        switch(nilai_matkul_[i]){
+//            case 'A':
+//                nilai_matkul_[i] = 4;
+//                break;
+//            case 'B':
+//                nilai_matkul_[i] = 3;
+//                break;
+//            case 'C':
+//                nilai_matkul_[i] = 2;
+//                break;
+//            case 'D':
+//                nilai_matkul_[i] = 1;
+//                break;
+//            case 'E':
+//                nilai_matkul_[i] = 0;
+//                break;
+//            default:
+//                nilai_matkul_[i] = 0;
+//                break;
+//        }
+//
+//        result += (nilai_matkul_[i] * jml_jam_matkul_[i]);
+//        jumlah_jam += jml_jam_matkul_[i];
+//
+//    }
+//
+//    printf("\nIndeks Prestasi Semester : %d", result/jumlah_jam);
+/// =======END=======
 
-    for (i = 1; i <= 5; i++) {
-        printf("\nNilai Mata Kuliah %d : ", i);
-        scanf(" %c", &nilai_matkul_[i]);
 
-        printf("Jumlah Jam : ");
-        scanf("%d", &jml_jam_matkul_[i]);
 
-        switch(nilai_matkul_[i]){
-            case 'A'
-                nilai_matkul_[i] =
+
+
+/// TEST
+
+    float biaya_haji, cicilan_per_bulan, total_cicilan=0, kenaikan, total_kenaikan;
+    int jumlah_bulan_dibutuhkan = 0;
+    printf("Masukkan Berapa Biaya Awal : ");
+    scanf("%f", &biaya_haji);
+    printf("Berapa Cicilan yang mampu dibayarkan per-bulan : ");
+    scanf("%f", &cicilan_per_bulan);
+    printf("Berapa Rata-rata kenaikan per-tahun (%) : ");
+    scanf("%f", &kenaikan);
+    total_kenaikan = biaya_haji * (kenaikan/100);
+    while(total_cicilan < biaya_haji){
+        total_cicilan += cicilan_per_bulan;
+        jumlah_bulan_dibutuhkan++;
+        if(jumlah_bulan_dibutuhkan % 12 == 0){
+            biaya_haji += total_kenaikan;
         }
     }
+    printf("\n\nWaktu yang dibutuhkan untuk melunasi haji adalah %d Bulan", jumlah_bulan_dibutuhkan);
 
-    result = ()
-    printf("Indeks Prestasi Semester : %d", result);
-
-
-
-
+/// TEST 2
+//    int input_bilangan, hasil = 0, is_loop = 1, i = 0;
+//    char input_konfirmasi;
+//    while (is_loop == 1){
+//        i++;
+//        printf("Masukkan bilangan ke-%d :", i);
+//        scanf("%d", &input_bilangan);
+//        hasil += input_bilangan;
+//        fflush(stdin);
+//        printf("Mau memasukkan data lagi [y/t] ? ");
+//        scanf("%c", &input_konfirmasi);
+//        if(input_konfirmasi == 't'){
+//            is_loop = 0;
+//        }
+//    }
+//    printf("\n\nTotal Bilangan = %d", hasil);
     return 0;
 }
