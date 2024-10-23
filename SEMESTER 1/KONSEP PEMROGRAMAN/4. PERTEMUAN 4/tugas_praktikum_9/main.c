@@ -115,46 +115,5 @@ int main()
 //
 //    printf("\nIndeks Prestasi Semester : %d", result/jumlah_jam);
 /// =======END=======
-
-
-
-
-
-/// TEST
-
-    float biaya_haji, cicilan_per_bulan, total_cicilan=0, kenaikan, total_kenaikan;
-    int jumlah_bulan_dibutuhkan = 0;
-    printf("Masukkan Berapa Biaya Awal : ");
-    scanf("%f", &biaya_haji);
-    printf("Berapa Cicilan yang mampu dibayarkan per-bulan : ");
-    scanf("%f", &cicilan_per_bulan);
-    printf("Berapa Rata-rata kenaikan per-tahun (%) : ");
-    scanf("%f", &kenaikan);
-    total_kenaikan = biaya_haji * (kenaikan/100);
-    while(total_cicilan < biaya_haji){
-        total_cicilan += cicilan_per_bulan;
-        jumlah_bulan_dibutuhkan++;
-        if(jumlah_bulan_dibutuhkan % 12 == 0){
-            biaya_haji += total_kenaikan;
-        }
-    }
-    printf("\n\nWaktu yang dibutuhkan untuk melunasi haji adalah %d Bulan", jumlah_bulan_dibutuhkan);
-
-/// TEST 2
-//    int input_bilangan, hasil = 0, is_loop = 1, i = 0;
-//    char input_konfirmasi;
-//    while (is_loop == 1){
-//        i++;
-//        printf("Masukkan bilangan ke-%d :", i);
-//        scanf("%d", &input_bilangan);
-//        hasil += input_bilangan;
-//        fflush(stdin);
-//        printf("Mau memasukkan data lagi [y/t] ? ");
-//        scanf("%c", &input_konfirmasi);
-//        if(input_konfirmasi == 't'){
-//            is_loop = 0;
-//        }
-//    }
-//    printf("\n\nTotal Bilangan = %d", hasil);
     return 0;
 }

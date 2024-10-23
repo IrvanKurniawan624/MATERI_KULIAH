@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+        "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+        "watch:tailwind": "nodemon --watch src/input.css -x \"npm run build:css\"",
+        "serve": " npm run watch:tailwind",
+        "test": "echo \"Error: no test specified\" && exit 1"
+  }
+
+}

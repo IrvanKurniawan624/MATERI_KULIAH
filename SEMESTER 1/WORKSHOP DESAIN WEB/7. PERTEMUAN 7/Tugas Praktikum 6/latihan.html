@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .custom-box-shadow{
+            border-radius: 35px;
+            background: #fafafa;
+            box-shadow:  29px 29px 52px #aaaaaa,
+                        -29px -29px 52px #ffffff;
+        }
+
+        .form-group label.col-md-4{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <form action="#" method="POST" class="custom-box-shadow p-5">
+            <h2 class="text-center mb-5">FROM DATA DIRI</h2>
+            <div class="row form-group mb-3">
+                <label for="nama" class="col-md-4">Nama</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="nama">
+                </div>
+            </div>
+            <div class="row form-group mb-3">
+                <label for="username" class="col-md-4">Username</label>
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <span class="input-group-text">@</span>
+                        <input type="text" class="form-control" id="username">
+                    </div>
+                </div>
+            </div>
+            <div class="row form-group mb-3">
+                <label for="password" class="col-md-4">Password</label>
+                <div class="col-md-8">
+                    <input type="password" class="form-control" id="password">
+                </div>
+            </div>
+            <div class="row form-group mb-3">
+                <label for="alamat" class="col-md-4">Alamat</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="alamat">
+                </div>
+            </div>
+            <div class="row form-group mb-3">
+                <label for="hobi" class="col-md-4">Hobi</label>
+                <div class="col-md-8">
+                    <input type="text" class="form-control" id="hobi">
+                </div>
+            </div>
+            <div class="row form-group mb-3">
+                <label for="menikah" class="col-md-4">Menikah</label>
+                <div class="col-md-8">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="married" id="menikah_ya" value="ya">
+                        <label class="form-check-label" for="menikah_ya">
+                            Ya
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="married" id="menikah_tidak" value="tidak">
+                        <label class="form-check-label" for="menikah_tidak">
+                            Tidak
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row form-group mb-3">
+                <label for="tinggi_badan" class="col-md-4">Tinggi Badan</label>
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <input type="number" class="form-control" id="tinggi_badan">
+                        <span class="input-group-text">cm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row form-group mb-3">
+                <label for="berat_badan" class="col-md-4">Berat Badan</label>
+                <div class="col-md-8">
+                    <div class="input-group">
+                        <input type="number" class="form-control" id="berat_badan">
+                        <span class="input-group-text">kg</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
