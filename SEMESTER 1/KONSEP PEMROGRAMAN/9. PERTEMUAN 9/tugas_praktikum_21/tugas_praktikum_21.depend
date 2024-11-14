@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1730226291 source:c:\users\kevin\downloads\tugas_praktikum_21\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -80,30 +80,29 @@ int main()
 //    }
    /// =======END=======
 
-   /// TUGAS 3
-   const int MAKS = 20;
-   int array_int[20], jumlah, temp_int, i, maksimal=0;
-   printf("Masukkan Jumlah Nilai Yang Dimasukkan : ");
-   scanf("%d", &jumlah);
-   for(i=1;i<=jumlah;i++){
-        printf("Masukkan Nilai Ke-%d : ", i);
-        scanf("%d", &temp_int);
-        array_int[i] = temp_int;
-        fflush(stdin);
-   }
-    printf("\n\n");
-   for(i=0;i<jumlah;i++){
-    if(array_int[i] > maksimal){
-        maksimal = array_int[i];
-    }
-    if(i == jumlah-1){
-        printf("%d", array_int[i]);
-    } else {
-        printf("%d, ", array_int[i]);
-    }
-   }
-   printf("\nMaksimal : %d", maksimal);
-
+   /// TUGAS 4
+//   const int MAKS = 20;
+//   int array_int[20], jumlah, temp_int, i, maksimal=0;
+//   printf("Masukkan Jumlah Nilai Yang Dimasukkan : ");
+//   scanf("%d", &jumlah);
+//   for(i=1;i<=jumlah;i++){
+//        printf("Masukkan Nilai Ke-%d : ", i);
+//        scanf("%d", &temp_int);
+//        array_int[i] = temp_int;
+//        fflush(stdin);
+//   }
+//    printf("\n\n");
+//   for(i=0;i<jumlah;i++){
+//    if(array_int[i] > maksimal){
+//        maksimal = array_int[i];
+//    }
+//    if(i == jumlah-1){
+//        printf("%d", array_int[i]);
+//    } else {
+//        printf("%d, ", array_int[i]);
+//    }
+//   }
+//   printf("\nMaksimal : %d", maksimal);
 
    /// =======END=======
 }

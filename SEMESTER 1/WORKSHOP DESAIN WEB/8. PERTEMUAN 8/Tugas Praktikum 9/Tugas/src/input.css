@@ -1,0 +1,7 @@
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    .btn-red {
+       @apply bg-red-400 hover:bg-red-500 px-2 text-white rounded-full transition duration-300 ease-in-out
+    }
