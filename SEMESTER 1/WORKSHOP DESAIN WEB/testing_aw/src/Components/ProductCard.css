@@ -1,0 +1,38 @@
+.product_box{
+    overflow: hidden; 
+    padding: 12px;
+    background-color: #D4F6FF;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.product_box img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.description{
+    margin-top: 10px;
+}
+.desc{
+    font-size: 12px;
+}
+/* .btn-2{
+    margin-top: 20px;
+    outline: none;
+    border: 2px solid red;
+    padding: 7px 32px;
+    border-radius: 40px;
+    background: none;
+    color: red;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.btn:hover{
+    background: blue;
+    color: #fff;
+} */

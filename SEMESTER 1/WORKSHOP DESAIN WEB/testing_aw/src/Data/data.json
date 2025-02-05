@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title" : "Bakso"
+    },
+    {
+        "id" : 2,
+        "title" : "Gudeg"
+    },
+    {
+        "id" : 3,
+        "title" : "Rendang"
+    },
+    {
+        "id" : 4,
+        "title" : "Pempek"
+    },
+    {
+        "id" : 5,
+        "title" : "Selat Solo"
+    },
+    {
+        "id" : 6,
+        "title" : "Klepon"
+    },
+    {
+        "id" : 7,
+        "title" : "Kue Dongkal"
+    },
+    {
+        "id" : 8,
+        "title" : "Putu"
+    },
+    {
+        "id" : 9,
+        "title" : "Lumpia"
+    },
+    {
+        "id" : 10,
+        "title" : "Martabak Manis"
+    },
+    {
+        "id" : 11,
+        "title" : "Martabak"
+    },
+    {
+        "id" : 12,
+        "title" : "Ayam Geprek"
+    }
+]

@@ -1,0 +1,128 @@
+p, h2, h6{
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.container{
+  margin: 15px 10%;
+}
+
+.product{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  gap: 100px;
+  height: 500px;
+}
+
+.product > * {
+  flex: 1 1 0;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-info{
+  display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  gap: 25px;
+}
+
+.product-info .product-title{
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.product-info .product-number{
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.product-info .product-desc{
+  color: gray;
+}
+
+.product-info span{
+  color: rgb(102, 199, 167);
+}
+
+.size-info h6{
+  font-size: 1rem;
+}
+
+.list-size-info{
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.list-size-info li{
+  padding: 10px 25px;
+  font-weight: bold;
+  border: 3px solid black;
+  border-right: none;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.list-size-info li:last-child{
+  border-right: 3px solid black;
+}
+
+.list-size-info li.active{
+  background-color: black!important;
+  color: white;
+}
+
+.list-size-info li:hover{
+  background-color: rgb(230, 229, 229);
+}
+
+.btn{
+  padding: 15px 30px;
+  font-weight: bold;
+  margin-right: 20px;
+  border: 0;
+  transition: .4s;
+}
+
+.btn-buy{
+  background-color: black;
+  color: white;
+}
+
+.btn-buy:hover{
+  background-color: rgb(90, 90, 90);
+  color: white;
+}
+
+.btn-wishlist{
+  background: rgb(240, 240, 240);
+  color: black;
+}
+
+.btn-wishlist:hover{
+  background: rgb(182, 182, 182);
+  color: black;
+}
+
+.limit-info{
+  color: gray;
+}
+
+@media (max-width: 981px){
+  .product{
+    flex-direction: column!important;
+  }
+}

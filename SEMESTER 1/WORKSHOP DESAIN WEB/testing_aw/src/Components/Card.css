@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;  
+    background: #f7f7f7; 
+}
+/* .product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+} */
+

@@ -1,0 +1,29 @@
+.cartTab{
+    width: 400px;
+    height: 1000px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}   
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.tombol{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.CheckOut{
+    background-color: yellow;
+    border:none;
+    cursor:pointer;
+    font-weight: 500;
+}
+.Close{
+    background-color: white;
+    border:none;
+    cursor:pointer;
+    font-weight: 500;
+}

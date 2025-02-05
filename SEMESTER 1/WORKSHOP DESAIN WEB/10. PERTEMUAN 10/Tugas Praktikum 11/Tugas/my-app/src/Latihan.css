@@ -1,0 +1,187 @@
+p, h2, h6{
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
+.font-bold{
+  font-weight: bold;
+}
+
+.container{
+  margin: 15px 10%;
+}
+
+.product-2{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  height: 600px;
+}
+
+.product-2 > * {
+  flex: 1 1 0;
+}
+
+.product-image-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.product-info-2{
+  display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+}
+
+.product-info-2 .product-category{
+    color: rgb(57, 57, 255);
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.product-info-2 .product-title{
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 25px 0;
+}
+
+.product-info-2 .product-desc{
+  color: gray;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 20px;
+}
+
+.product-info-2 .color-info p{
+    margin-top: 15px;
+    color: rgb(97, 97, 97);
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.product-info-2 .color-info .color-list-info{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.product-info-2 .color-info .color-list-info .color-selection{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid rgb(223 223 223);
+    position: relative;
+}
+
+.product-info-2 .color-info .color-list-info .color-selection .color-selection-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    color: white;
+    display: none;
+}
+
+.product-info-2 .color-info .color-list-info .color-selection .color-selection-icon.active{
+    display: block;
+}
+
+.product-info-2 .color-info .color-list-info .color-selection::after{
+    content: '';
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-info-2 .color-info .color-list-info .color-selection.red::after{
+    background-color: red;
+}
+
+.product-info-2 .color-info .color-list-info .color-selection.darkblue::after{
+    background-color: darkblue;
+}
+
+.product-info-2 .color-info .color-list-info .color-selection.black::after{
+    background-color: black;
+}
+
+.product-info-2 .cable-config-info p{
+    margin-top: 15px;
+    color: rgb(97, 97, 97);
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.product-info-2 .cable-config-info .list-cable-config-info{
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.product-info-2 .cable-config-info .list-cable-config-info li{
+    padding: 10px 25px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.product-info-2 .cable-config-info .list-cable-config-info li:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.product-info-2 .cable-config-info .list-cable-config-info li.active{
+    background-color: black;
+    color: white;
+}
+
+.product-info-2 .how-to-config-info{
+    text-decoration: none;
+    color: rgb(3, 157, 246);
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.product-info-2 .price-cart-info{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.product-info-2 .price-cart-info h3{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.product-info-2 .price-cart-info .btn-cart{
+    padding: 15px 30px;
+    background-color: rgb(11, 207, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.product-info-2 .price-cart-info .btn-cart:hover{
+  background-color: rgb(11, 150, 11);
+}
+
+@media (max-width: 800px) {
+  .product-2{
+    flex-direction: column!important;
+  }
+}
