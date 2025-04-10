@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1740369757 source:c:\users\kevin\downloads\praktikum_dynamic_allocation_exercise_2\main.c
+	<stdio.h>
+	<stdlib.h>
+

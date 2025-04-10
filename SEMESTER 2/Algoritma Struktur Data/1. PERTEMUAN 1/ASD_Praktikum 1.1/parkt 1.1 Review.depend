@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1740127865 source:c:\users\kevin\downloads\parkt 1.1 review\main.c
+	<stdio.h>
+	<stdlib.h>
+
