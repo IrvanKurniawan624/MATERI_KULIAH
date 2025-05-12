@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1746474776 source:c:\users\kevin\downloads\asd_praktikum_11.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
